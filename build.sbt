@@ -1,7 +1,8 @@
 organization := "lt.dvim.polyfact"
 name := "polyfact"
 
-scalaVersion := "2.12.8"
+autoScalaLibrary := false
+crossPaths := false
 
 resolvers in ThisBuild += Resolver.jcenterRepo
 libraryDependencies ++= Seq(
