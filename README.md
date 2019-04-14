@@ -8,27 +8,27 @@ Tada programa išves visus polinomo f(x) pirminius daugiklius kartu su tarpniais
 
 ## 2. Programos kompiliavimas ir paleidimas
 
-Programos kompiliavimui ir paleidimui galima naudoti sukurtus paleidimo failus:
+Programos kompiliavimui ir paleidimui yra naudojamas [sbt](https://www.scala-sbt.org/) įrankis. Naudingos sbt komandos:
 
-* **build.bat**
+* **sbt package**
 
-  Sukompiliuos išeities tekstus ir sukurs paleidimo failą: **PolynomialFactorization.jar**.
+  Sukompiliuos išeities tekstus ir sukurs paleidimo failą: `target/polyfact-<...>.jar`.
   Programą galima paleisti du kartus spustelėjus ant sukurto failo.
 
-* **run.bat**
+* **sbt run**
 
   Paleidžia programą, kartu su konsolės langu.
 
-* **test.bat**
+* **sbt test**
 
   Sukompiliuos programą, sukurs paleidimo failą ir paleis programą testavimo režime.
-  Visi testai yra aprašyti **Test.java** faile.
+  Visi testai yra aprašyti [`PolyFactTest.java`](src/test/java/PolyFactTest.java) faile.
 
 ## 3. Programos testavimas.
 
-**Test.java** faile yra aprašyta daug predikatų, kurie tikrina ar teisingai veikia aritmetikos operacijos bei faktorizavimas.
+[`PolyFactTest.java`](src/test/java/PolyFactTest.java) faile yra aprašyta daug predikatų, kurie tikrina ar teisingai veikia aritmetikos operacijos bei faktorizavimas.
 Predikatas atlieka tam tikrus veiksmus, ir patikrina rezultatą su žinomu rezultatu.
-Visi aprašyti predikatai turi grąžinti reikšmę **TRUE**. Jeigu bent vienas grąžina **FALSE**, tai testavimo programa yra stabdoma.
+Visi aprašyti predikatai turi grąžinti reikšmę `true`. Jeigu bent vienas grąžina `false`, tai testavimo programa yra stabdoma.
 Išspausdintas pranešimas nurodo, kuri operacija grąžino kitokį rezultatą negu tikėtasi.
 
 Testavimo programa bando įvarias aritmetines operacijas (sudėtis, atimtis, daugyba, dalyba, dbd), bei faktorizavimo algoritmą.
