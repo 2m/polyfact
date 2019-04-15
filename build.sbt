@@ -18,5 +18,8 @@ developers += Developer("contributors",
                         "Contributors",
                         "https://gitter.im/2m/polyfact",
                         url("https://github.com/2m/polyfact/graphs/contributors"))
+
 publishTo := sonatypePublishTo.value
+sonatypeProfileName := "lt.dvim"
+
 enablePlugins(AutomateHeaderPlugin)
