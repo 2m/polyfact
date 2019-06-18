@@ -1,4 +1,4 @@
-addSbtPlugin("com.dwijnand"      % "sbt-dynver"         % "3.3.0")
+addSbtPlugin("com.dwijnand"      % "sbt-dynver"         % "4.0.0")
 addSbtPlugin("de.heikoseeberger" % "sbt-header"         % "5.2.0")
 addSbtPlugin("com.lightbend.sbt" % "sbt-java-formatter" % "0.4.4")
 addSbtPlugin("com.geirsson"      % "sbt-scalafmt"       % "1.5.1")
