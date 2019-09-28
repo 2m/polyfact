@@ -6,4 +6,4 @@ addSbtPlugin("org.xerial.sbt"    % "sbt-sonatype"       % "3.7")
 addSbtPlugin("com.jsuereth"      % "sbt-pgp"            % "2.0.0")
 
 resolvers += Resolver.jcenterRepo
-addSbtPlugin("net.aichler" % "sbt-jupiter-interface" % "0.8.2")
+addSbtPlugin("net.aichler" % "sbt-jupiter-interface" % "0.8.3")
