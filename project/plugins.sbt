@@ -1,6 +1,6 @@
 addSbtPlugin("com.dwijnand"      % "sbt-dynver"         % "4.0.0")
 addSbtPlugin("de.heikoseeberger" % "sbt-header"         % "5.3.1")
-addSbtPlugin("com.lightbend.sbt" % "sbt-java-formatter" % "0.4.4")
+addSbtPlugin("com.lightbend.sbt" % "sbt-java-formatter" % "0.5.0")
 addSbtPlugin("org.scalameta"     % "sbt-scalafmt"       % "2.3.0")
 addSbtPlugin("org.xerial.sbt"    % "sbt-sonatype"       % "3.8.1")
 addSbtPlugin("com.jsuereth"      % "sbt-pgp"            % "2.0.1")
