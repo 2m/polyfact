@@ -21,7 +21,4 @@ developers += Developer(
   url("https://github.com/2m/polyfact/graphs/contributors")
 )
 
-publishTo := sonatypePublishTo.value
-sonatypeProfileName := "lt.dvim"
-
 enablePlugins(AutomateHeaderPlugin)
