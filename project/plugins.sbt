@@ -4,4 +4,4 @@ addSbtPlugin("com.lightbend.sbt" % "sbt-java-formatter" % "0.6.0")
 addSbtPlugin("org.scalameta"     % "sbt-scalafmt"       % "2.4.2")
 
 resolvers += Resolver.jcenterRepo
-addSbtPlugin("net.aichler" % "sbt-jupiter-interface" % "0.8.4")
+addSbtPlugin("net.aichler" % "sbt-jupiter-interface" % "0.9.0")
