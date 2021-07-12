@@ -4,7 +4,7 @@ name := "polyfact"
 autoScalaLibrary := false
 crossPaths := false
 
-resolvers in ThisBuild += Resolver.jcenterRepo
+ThisBuild / resolvers += Resolver.jcenterRepo
 libraryDependencies ++= Seq(
   "net.aichler" % "jupiter-interface" % JupiterKeys.jupiterVersion.value % Test
 )
