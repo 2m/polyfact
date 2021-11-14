@@ -4,6 +4,8 @@ name := "polyfact"
 autoScalaLibrary := false
 crossPaths := false
 
+javacOptions ++= Seq("-Xlint:deprecation")
+
 ThisBuild / resolvers += Resolver.jcenterRepo
 libraryDependencies ++= Seq(
   "net.aichler" % "jupiter-interface" % JupiterKeys.jupiterVersion.value % Test
