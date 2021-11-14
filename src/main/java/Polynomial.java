@@ -56,7 +56,10 @@ public class Polynomial<T extends FieldElement> {
 
     for (int i = 0; i < s.length(); i++) {
       try {
-        p.add((T) ((T) c.newInstance()).add(new Integer(s.substring(i, i + 1))));
+        p.add(
+            (T)
+                ((T) c.getDeclaredConstructor().newInstance())
+                    .add(Integer.valueOf(s.substring(i, i + 1))));
       } catch (Exception ex) {
       }
     }
