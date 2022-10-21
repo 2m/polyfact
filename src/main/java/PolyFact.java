@@ -16,11 +16,11 @@
 
 package lt.dvim.polyfact;
 
-import javax.swing.*;
-import javax.swing.border.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.math.BigInteger;
+import javax.swing.*;
+import javax.swing.border.*;
 
 /** Constructs GUI for polynomial factorization. */
 public class PolyFact {
