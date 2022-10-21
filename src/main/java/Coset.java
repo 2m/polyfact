@@ -16,8 +16,8 @@
 
 package lt.dvim.polyfact;
 
-import java.util.TreeSet;
 import java.util.Iterator;
+import java.util.TreeSet;
 
 /** Cyclotomic coset class. */
 public class Coset implements Comparable<Coset> {
