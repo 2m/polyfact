@@ -16,12 +16,12 @@
 
 package lt.dvim.polyfact;
 
-import java.util.TreeSet;
 import java.util.ArrayList;
+import java.util.ConcurrentModificationException;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.ListIterator;
-import java.util.ConcurrentModificationException;
+import java.util.TreeSet;
 
 /** Implements all the algorithms needed for polynomial factorization. */
 public class Factorization {
